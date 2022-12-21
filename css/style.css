@@ -1,0 +1,104 @@
+*{
+  background: #292929;
+  color: #e2e2e2;
+  white-space: pre;
+}
+.clickable{
+  font-size: 3rem;
+  height: 4rem;
+  width: 20rem;
+  background: #bb86fc;
+  color: #121212;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.clickable:hover{
+  background: #6200ee;
+  color: #e2e2e2;
+}
+
+h1{
+  text-align: center;
+  color: yellow;
+  font-size: 4rem;
+}
+
+h2{
+  font-size: 2rem;
+}
+h3{
+  font-size: 3rem;
+}
+h5{
+  font-size: 3rem;
+  text-align: center;
+}
+#logo{
+  height: 300px;
+  width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#pikachu{
+  height: 500px;
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#bidoof{
+  height: 1000px;
+  width: 1000px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#attacks{
+  padding-left: 40%;
+  width: 20%;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 0rem 2rem;
+  justify-content: space-around; 
+}
+.attack{
+  background: #bb86fc;
+  color: #121212;
+  height: 2rem;
+  border-radius: 6px;
+  font-size: 2rem;
+  border: #6200ee 2px solid;
+}
+#HPs{
+  white-space: normal;
+  flex-wrap: row nowrap;
+  align-items: baseline;
+  overflow: hidden;
+  width: 100%;
+}
+.HP{
+  text-align: center;
+  align-self: center;
+  display: inline-block;
+  width: 49%;
+}
+#ourPokemon{
+width: 50%;
+}
+#enemyPokemon{
+width: 48%;
+}
+#picture{
+  white-space: normal;
+  overflow: hidden;
+  flex-flow: row nowrap;
+  align-items: baseline;
+}
+
+.hidden {
+  display: none;
+}

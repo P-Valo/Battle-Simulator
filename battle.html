@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Battle</title>
+  <link
+      rel="icon"
+      type="image/x-icon"
+      sizes="32x32"
+      href="/images/favicon/favicon.ico"
+    />
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <h1 class="clickable">FIGHT</h1>
+  <section id="HPs">
+    <h3 class="HP" id='ourHP'></h3>
+    <h3 class="HP" id='enemyHP'></h3>
+  </section>
+  <section id="picture">
+    <img id="ourPokemon" src="#" class="hidden"  width="300" height="300">
+    <img id="enemyPokemon" src="#" class="hidden"  width="300" height="300">
+  </section>
+  <section id="attacks">
+      <h4 class="attack hidden"  id="move1"></h4>
+      <h4 class="attack hidden"  id="move2"></h4>
+      <h4 class="attack hidden"  id="move3"></h4>
+      <h4 class="attack hidden"  id="move4"></h4>
+  </section>
+  <span id="log"></span>
+  <span id="end"></span>
+  <input type="button" value="RESET" class="clickable">
+
+  <script type='text/javascript' src="/js/battle.js"></script>
+</body>
+</html>
